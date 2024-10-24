@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+#imagemEstoque {
+    width: 100%;
+    height: 30%;
+    background-image: url(img/estoque.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form > div {
+    margin: 10px;
+}
