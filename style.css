@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+:root {
+    --color01: #1B3E25;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+/* --------------------------------- */
+header {
+    background-color: var(--color01);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+/* -------------------------------- */
+main {
+    padding: 30px 50px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+button {
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: var(--color01);
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bolder;
+    transition: all ease 0.3s;
+}
+button:hover {
+    background-color: #016d1c;
+}
+/* ---------------------------- */
+.content {
+    margin-top: 15px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+    text-align: center;
+}
+table th {
+    background-color: #cdffdb;
+}
+table td img {
+    width: 20px;
+    padding-top: 5px;
+}
+.center {
+    text-align: center;
+}
