@@ -48,7 +48,7 @@ form > .entrada > input {
     text-align: center;
 }
 form > div > #acesso {
-    width: 100%;
+    width: 90%;
     height: 30px;
     border-radius: 5px;
     border: 1px solid lightgray;
@@ -60,8 +60,4 @@ form > div > #acesso:hover {
 }
 form > div > #acesso:not(:hover) {
     transition: all .3s;
-}
-form > div > #cadastro {
-    text-decoration: none;
-    color: #1B3E25;
 }
