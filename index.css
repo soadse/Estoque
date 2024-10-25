@@ -41,7 +41,7 @@ form > div {
 form > .entrada > input {
     height: 100%;
     border: none;
-    text-decoration: none;
+    outline: 0;
     border-bottom: 1px solid black;
     width: 80%;
     padding-left: 10px;
