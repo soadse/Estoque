@@ -8,6 +8,10 @@
 body {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #imagemEstoque {
     width: 100%;
@@ -18,8 +22,9 @@ body {
     background-size: cover;
 }
 form {
-    width: 100%;
+    width: 80%;
     height: 70%;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,4 +45,23 @@ form > .entrada > input {
     border-bottom: 1px solid black;
     width: 80%;
     padding-left: 10px;
+    text-align: center;
+}
+form > div > #acesso {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+form > div > #acesso:hover {
+    background-color: #1B3E25;
+    color: white;
+    transition: all .3s;
+}
+form > div > #acesso:not(:hover) {
+    transition: all .3s;
+}
+form > div > #cadastro {
+    text-decoration: none;
+    color: #1B3E25;
 }
