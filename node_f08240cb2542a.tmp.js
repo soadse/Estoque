@@ -26,11 +26,11 @@ function busca_por_categoria(arg){
     
     let contador = 0
     while(contador < 5){
-        contador += 1
         setTimeout(()=> {
             contador += 1
             console.log('.')
         }, 1000)
+        
     }
 
     setTimeout(() => {
